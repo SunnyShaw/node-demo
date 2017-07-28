@@ -33,9 +33,18 @@ npm install request --save
 yarn add request
 ```
 4.nodemon自动重启
-（1）安装yarn add nodemon --dev
-（2）自动重启./node_modules/.bin/nodemon index.js
- (3) 在package.json中添加常用脚本命令，例如
+
+（1）安装
+```
+yarn add nodemon --dev
+```
+
+（2）自动重启
+```
+./node_modules/.bin/nodemon index.js
+```
+
+（3）在package.json中添加常用脚本命令，例如
 ```
 "scripts": {
     "start": "./node_modules/.bin/nodemon index.js"
